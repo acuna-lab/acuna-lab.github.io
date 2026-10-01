@@ -1,0 +1,183 @@
+{
+  "header": {
+    "name": "Acuña Lab",
+    "tagline": "To reveal how the body heals the brain's pain, and turn that knowledge into therapies anyone can access.",
+    "description": "We study the neural mechanisms underlying chronic pain and exercise-induced analgesia, investigating both peripheral and central pathways that modulate pain perception. Our work bridges body and brain using in vivo calcium imaging, electrophysiology, and molecular profiling.<br><br>We are part of the <a href='https://physiologie.unibe.ch/research/research_groups/neuronal_plasticity/index_eng.html' target='_blank'>Nevian Lab</a> at the Institute of Physiology, University of Bern."
+  },
+  "recruiting": true,
+  "research": {
+    "title": "Research",
+    "projects": [
+      {
+        "title": "Body to Brain — Deciphering the Role of Myokines in Pain Modulation and Brain Activity",
+        "description": "This project investigates how exercise alleviates pain by examining the relationship between physical activity, myokine production, and brain activity. Using various exercise paradigms and chronic pain models, we study how specific myokines contribute to pain modulation and analyze the associated neuronal dynamics in the medial prefrontal cortex. Through a combination of behavioral assays, molecular profiling, and advanced neuroimaging, we aim to uncover the peripheral mechanisms that drive exercise-induced analgesia.<br><em>Carried out by Alessandro Arcari</em>",
+        "tools": ["Animal Behavior", "qPCR", "Proteomics", "Transcriptomics", "Ex vivo Electrophysiology"]
+      },
+      {
+        "title": "Brain to Body — Unraveling the Neuronal Mechanisms Implicated in Exercise-Mediated Analgesia",
+        "description": "This project focuses on the central neural circuits involved in exercise-induced pain relief, particularly the ventral hippocampus-medial prefrontal cortex-periaqueductal gray (vHC-mPFC-PAG) axis. Through comprehensive circuit mapping and selective manipulation of neuronal populations, we investigate how this pathway contributes to pain modulation during exercise. By combining circuit-specific interventions with targeted myokine overexpression, we seek to understand and potentially enhance the pain-relieving effects of exercise, developing novel approaches for those unable to engage in regular physical activity.<br><em>Carried out by Sascha Steiner</em>",
+        "tools": ["Animal Behavior", "Ex vivo Electrophysiology", "Viral Vector Delivery", "Data Analysis"]
+      }
+    ]
+  },
+  "members": {
+    "title": "People",
+    "lab_head": {
+      "name": "Mario A. Acuña, PhD",
+      "flag": "🇨🇱",
+      "role": "Lab Head",
+      "email": "mario[dot]acuna[at]unibe[dot]ch",
+      "photo": "images/members/mario.jpg",
+      "bio": "Short bio here — background, where he studied, what brought him to pain research.",
+      "specializations": ["Technique 1", "Technique 2", "Technique 3"],
+      "hobbies": ["Hobby 1", "Hobby 2"],
+      "fun_fact": "Something cool or unexpected."
+    },
+    "phd_students": [
+      {
+        "name": "MSc Alessandro Arcari",
+        "flag": "🇮🇹",
+        "project": "Body to Brain",
+        "email": "alessandro.arcari[at]unibe[dot]ch",
+        "photo": "images/members/alessandro.jpg",
+        "bio": "Short bio here — background, where he studied, what brought him to the lab.",
+        "specializations": ["Technique 1", "Technique 2", "Technique 3"],
+        "hobbies": ["Hobby 1", "Hobby 2"],
+        "fun_fact": "Something cool or unexpected."
+      },
+      {
+        "name": "MSc Sascha Steiner",
+        "flag": "🇩🇪",
+        "project": "Brain to Body",
+        "email": "sascha.steiner[at]unibe[dot]ch",
+        "photo": "images/members/sascha.jpg",
+        "bio": "Short bio here — background, where he studied, what brought him to the lab.",
+        "specializations": ["Technique 1", "Technique 2", "Technique 3"],
+        "hobbies": ["Hobby 1", "Hobby 2"],
+        "fun_fact": "Something cool or unexpected."
+      }
+    ]
+  },
+  "publications": {
+    "title": "Publications",
+    "items": [
+      {
+        "title": "Acuña MA, Kasanetz F, De Luna P, Falkowska M, Nevian T. Principles of nociceptive coding in the anterior cingulate cortex. Proceedings of the National Academy of Sciences, 120(23), e2212394120 (2023).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/37252991/",
+        "doi_link": "https://doi.org/10.1073/pnas.2212394120"
+      },
+      {
+        "title": "Ntamati NR, Acuña MA, Nevian T. Pain-induced adaptations in the claustro-cingulate pathway. Cell Reports, 42(5), 112506 (2023).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/37182208/",
+        "doi_link": "https://doi.org/10.1016/j.celrep.2023.112506"
+      },
+      {
+        "title": "Valentinova K, Acuña MA, Ntamati NR, Nevian NE, Nevian T. An amygdala-to-cingulate cortex circuit for conflicting choices in chronic pain. Cell Reports, 42(10), 113125 (2023).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/37733589/",
+        "doi_link": "https://doi.org/10.1016/j.celrep.2023.113125"
+      },
+      {
+        "title": "Franciosa F, Acuña MA, Nevian NE, Nevian T. A cellular mechanism contributing to pain-induced analgesia. Pain, 165(11), 2517-2529 (2024).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/38968393/",
+        "doi_link": "https://doi.org/10.1097/j.pain.0000000000003315"
+      },
+      {
+        "title": "Acuña MA, Yévenes GE, Ralvenius WT, Benke D, Di Lio A, Lara CO, et al. Phosphorylation state-dependent modulation of spinal glycine receptors alleviates inflammatory pain. Journal of Clinical Investigation, 126(7), 2547-2560 (2016).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/27270175/",
+        "doi_link": "https://doi.org/10.1172/JCI83817"
+      },
+      {
+        "title": "Ralvenius WT, Benke MA, Acuña MA, Rudolph U, Zeilhofer HU. Analgesia and unwanted benzodiazepine effects in point-mutated mice expressing only one benzodiazepine-sensitive GABA<sub>A</sub> receptor subtype. Nature Communications, 6, 6803 (2015).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/25865415/",
+        "doi_link": "https://doi.org/10.1038/ncomms7803"
+      },
+      {
+        "title": "Zeilhofer HU, Acuña MA, Gingras J, Yévenes GE. Glycine receptors and glycine transporters: targets for novel analgesics? Cellular and Molecular Life Sciences, 75(3), 447-465 (2018).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/28791431/",
+        "doi_link": "https://doi.org/10.1007/s00018-017-2622-x"
+      },
+      {
+        "title": "Ralvenius WT, Neumann E, Pagani M, Acuña MA, Wildner H, Benke D, et al. Itch suppression in mice and dogs by modulation of spinal α2 and α3 GABA<sub>A</sub> receptors. Nature Communications, 9(1), 3230 (2018).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/30104684/",
+        "doi_link": "https://doi.org/10.1038/s41467-018-05709-0"
+      },
+      {
+        "title": "Begemann A, Acuña MA, Zweier M, Vincent M, Steindl K, et al. Further corroboration of distinct functional features in SCN2A variants causing intellectual disability or epileptic phenotypes. Molecular Medicine, 25(1), 6 (2019).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/30813884/",
+        "doi_link": "https://doi.org/10.1186/s10020-019-0073-6"
+      },
+      {
+        "title": "Falkowska M, Ntamati NR, Nevian NE, Nevian T, Acuña MA. Environmental enrichment promotes resilience to neuropathic pain-induced depression and correlates with decreased excitability of the anterior cingulate cortex. Frontiers in Behavioral Neuroscience, 17, 1139205 (2023).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/37008999/",
+        "doi_link": "https://doi.org/10.3389/fnbeh.2023.1139205"
+      },
+      {
+        "title": "Neumann E, Cramer T, Acuña MA, Scheurer L, Beccarini C, Luscher B, et al. γ1 GABA<sub>A</sub> receptors in spinal nociceptive circuits. Journal of Neuroscience, 44(41), e019824 (2024).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/39137998/",
+        "doi_link": "https://doi.org/10.1523/JNEUROSCI.0591-24.2024"
+      },
+      {
+        "title": "Acuña MA, Valentinova K, Darbon P. Editorial: Molecular neurobiology of chronic pain: pharmacological and non-pharmacological approaches in animal models. Frontiers in Molecular Neuroscience, 17, 1487141 (2024).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/39350931/",
+        "doi_link": "https://doi.org/10.3389/fnmol.2024.1487141"
+      },
+      {
+        "title": "Acuña MA, Kaufmann A, Nevian NE, Nevian T. Neuronal circuit mechanisms of pain-anxiety comorbidity in the mouse anterior cingulate cortex. European Journal of Pain, 29 (2025)."
+      },
+      {
+        "title": "Ralvenius WT, Acuña MA, Benke D, Matthey A, Daali Y, Rudolph U, Zeilhofer HU. The clobazam metabolite N-desmethyl clobazam is an α2 preferring benzodiazepine with an improved therapeutic window for antihyperalgesia. Neuropharmacology, 109, 366-375 (2016).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/27392635/",
+        "doi_link": "https://doi.org/10.1016/j.neuropharm.2016.07.004"
+      },
+      {
+        "title": "Zeilhofer HU, Ralvenius WT, Acuña MA. Restoring the spinal pain gate: GABA<sub>A</sub> receptors as targets for novel analgesics. Advances in Pharmacology, 73, 71-96 (2015).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/25637438/",
+        "doi_link": "https://doi.org/10.1016/bs.apha.2014.11.007"
+      },
+      {
+        "title": "Maier PJ, Zemoura K, Acuña MA, Yévenes GE, Zeilhofer HU, Benke D. Ischemia-like oxygen and glucose deprivation mediates down-regulation of cell surface GABA<sub>B</sub> receptors via the endoplasmic reticulum (ER) stress-induced transcription factor CHOP. Journal of Biological Chemistry, 289(18), 12896-12907 (2014).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/24668805/",
+        "doi_link": "https://doi.org/10.1074/jbc.M114.550517"
+      },
+      {
+        "title": "Ghosh H, Auguadri L, Battaglia S, Thirouin ZS, Zemoura K, Messner S, Acuña MA, et al. Several posttranslational modifications act in concert to regulate gephyrin scaffolding and GABAergic transmission. Nature Communications, 7, 13365 (2016).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/27819299/",
+        "doi_link": "https://doi.org/10.1038/ncomms13365"
+      },
+      {
+        "title": "Tudeau L, Acuña MA, Albisetti GW, Neumann E, Ralvenius WT, et al. Mice lacking spinal α2 GABA<sub>A</sub> receptors: Altered GABAergic neurotransmission, diminished GABAergic antihyperalgesia, and potential compensatory mechanisms preventing a hyperalgesic phenotype. Brain Research, 1741, 146889 (2020).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/32439345/",
+        "doi_link": "https://doi.org/10.1016/j.brainres.2020.146889"
+      },
+      {
+        "title": "Egan TJ, Acuña MA, Zenobi-Wong M, Zeilhofer HU, Urech D. Effects of N-glycosylation of the human cation channel TRPA1 on agonist-sensitivity. Bioscience Reports, 36(5), e00390 (2016).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/27582506/",
+        "doi_link": "https://doi.org/10.1042/BSR20160149"
+      },
+      {
+        "title": "Acuña MA, Pérez-Nuñez R, Noriega J, Cárdenas AM, Bacigalupo J, et al. Altered voltage dependent calcium currents in a neuronal cell line derived from the cerebral cortex of a trisomy 16 fetal mouse, an animal model of Down syndrome. Neurotoxicity Research, 22(1), 59-68 (2012).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/22203612/",
+        "doi_link": "https://doi.org/10.1007/s12640-011-9304-5"
+      }
+    ]
+  },
+  "join": {
+    "title": "Join Us",
+    "content": "We are looking for motivated Master students to join our lab. If you are curious about the neuroscience of pain and exercise, this is the place for you.<br><br><strong>What you will learn:</strong><br>• Molecular biology (qPCR, immunohistochemistry)<br>• Ex vivo electrophysiology<br>• Data analysis<br><br><strong>How to apply:</strong><br>Send an email to <span class='contact-obfuscated'>mario[dot]acuna[at]unibe[dot]ch</span> with your CV and two sentences on why pain and exercise interest you. No cover letter needed — just curiosity and motivation."
+  },
+  "footer": {
+    "address": "Acuña Lab\nInstitute of Physiology\nFaculty of Medicine\nUniversity of Bern\nBern, Switzerland",
+    "email": "mario[dot]acuna[at]unibe[dot]ch",
+    "links": [
+      { "name": "Institute of Physiology", "url": "https://physiologie.unibe.ch/index_eng.html" },
+      { "name": "University of Bern", "url": "https://www.unibe.ch" },
+      { "name": "GitHub", "url": "https://github.com/acuna-lab" },
+      { "name": "Google Scholar", "url": "https://scholar.google.com/citations?user=eu6HL7EAAAAJ&hl=en" },
+      { "name": "ORCID", "url": "https://orcid.org/0000-0002-0673-5150" }
+    ],
+    "funding": {
+      "text": "This work is supported by the Swiss National Science Foundation (SNSF).",
+      "url": "https://data.snf.ch/grants/person/621584"
+    }
+  }
+}

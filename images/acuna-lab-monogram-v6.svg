@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 440" width="330" height="440">
+  <defs>
+    <radialGradient id="soma" cx="0.42" cy="0.55" r="0.65">
+      <stop offset="0" stop-color="#3A77A3"/>
+      <stop offset="1" stop-color="#14344F"/>
+    </radialGradient>
+    <linearGradient id="muscle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#B8321A"/>
+      <stop offset="0.5" stop-color="#E4572E"/>
+      <stop offset="1" stop-color="#B8321A"/>
+    </linearGradient>
+    <radialGradient id="drg" cx="0.4" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#F0626F"/>
+      <stop offset="1" stop-color="#D62839"/>
+    </radialGradient>
+    <clipPath id="muscleClip">
+      <path d="M80 170 C104 200 106 280 80 312 C54 280 56 200 80 170 Z"/>
+    </clipPath>
+    <path id="myoPath" d="M58 290 C30 262 26 210 44 182 C52 168 60 158 70 150"/>
+  </defs>
+  <rect width="330" height="440" rx="12" fill="#c8dae8"/>
+
+  <!-- ===== TILDE = NOCICEPTOR (pseudo-unipolar DRG neuron) ===== -->
+  <g stroke="#D62839" stroke-linecap="round" fill="none">
+    <path d="M78 58 C72 52 68 48 62 46" stroke-width="3"/>
+    <path d="M78 58 C70 60 64 62 58 66" stroke-width="3"/>
+    <path d="M78 58 C74 66 72 70 70 76" stroke-width="2.5"/>
+    <path d="M78 58 C110 20 140 20 168 48 S226 80 258 42" stroke-width="9"/>
+    <path d="M168 48 L168 32" stroke-width="5"/>
+    <!-- central terminal onto the dorsal-horn neuron's dendrites -->
+    <path d="M258 42 C262 46 264 50 266 54" stroke-width="3"/>
+    <path d="M258 42 C254 46 250 50 247 53" stroke-width="3"/>
+  </g>
+  <circle cx="168" cy="22" r="11" fill="url(#drg)"/>
+  <circle cx="170" cy="20" r="3.5" fill="#FFFFFF" fill-opacity="0.4"/>
+  <circle cx="267" cy="57" r="4.5" fill="#D62839"/>
+  <circle cx="245" cy="56" r="4.5" fill="#D62839"/>
+  <path d="M78 58 C110 20 140 20 168 48 S226 80 258 42" fill="none" stroke="#FFD166"
+        stroke-width="5" stroke-linecap="round" stroke-dasharray="14 400" stroke-dashoffset="14">
+    <animate attributeName="stroke-dashoffset" values="14;-210" dur="1.6s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- ===== LEFT LEG = CONTRACTING MUSCLE (exercise) ===== -->
+  <g transform="translate(80 241)">
+    <g>
+      <animateTransform attributeName="transform" type="scale"
+                        values="1 1; 1.14 0.95; 1 1" keyTimes="0;0.4;1"
+                        dur="1.6s" repeatCount="indefinite"/>
+      <g transform="translate(-80 -241)">
+        <path d="M80 170 C104 200 106 280 80 312 C54 280 56 200 80 170 Z" fill="url(#muscle)"/>
+        <!-- longitudinal fascicles converging on the tendons -->
+        <g clip-path="url(#muscleClip)" stroke="#FFFFFF" stroke-opacity="0.38" stroke-width="2" fill="none" stroke-linecap="round">
+          <path d="M80 174 C62 206 62 276 80 310"/>
+          <path d="M80 174 C69 206 69 276 80 310"/>
+          <path d="M80 174 C76 206 76 276 80 310"/>
+          <path d="M80 174 C84 206 84 276 80 310"/>
+          <path d="M80 174 C91 206 91 276 80 310"/>
+          <path d="M80 174 C98 206 98 276 80 310"/>
+        </g>
+        <!-- highlight -->
+        <path d="M72 205 C68 230 68 258 72 282" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="4" fill="none" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+  <line x1="80" y1="310" x2="80" y2="332" stroke="#14344F" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- myokines released from muscle, travelling to the PAG neuron -->
+  <g fill="#F2A541">
+    <circle r="5">
+      <animateMotion dur="3s" repeatCount="indefinite"><mpath href="#myoPath"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4">
+      <animateMotion dur="3s" begin="1s" repeatCount="indefinite"><mpath href="#myoPath"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4.5">
+      <animateMotion dur="3s" begin="2s" repeatCount="indefinite"><mpath href="#myoPath"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ===== DIAGONAL = DESCENDING MYELINATED AXON ===== -->
+  <line x1="88" y1="160" x2="214" y2="290" stroke="#14344F" stroke-width="7" stroke-linecap="round"/>
+  <g stroke="#14344F" stroke-width="24" stroke-linecap="round">
+    <line x1="110" y1="184" x2="128" y2="202"/>
+    <line x1="141" y1="216" x2="159" y2="234"/>
+    <line x1="172" y1="248" x2="190" y2="266"/>
+  </g>
+  <line x1="88" y1="160" x2="214" y2="290" stroke="#F2A541" stroke-width="5" stroke-linecap="round"
+        stroke-dasharray="16 300" stroke-dashoffset="16">
+    <animate attributeName="stroke-dashoffset" values="16;-185" dur="1.6s" begin="0.8s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- PAG neuron -->
+  <g stroke="#14344F" stroke-linecap="round" fill="none">
+    <path d="M80 122 C79 112 77 104 76 96" stroke-width="7"/>
+    <path d="M76 96 C68 90 60 88 52 84" stroke-width="4"/>
+    <path d="M76 96 C80 90 84 88 90 86" stroke-width="3.5"/>
+    <path d="M52 84 C48 80 48 76 50 72" stroke-width="2"/>
+    <path d="M104 150 C112 144 118 140 124 134" stroke-width="3.5"/>
+  </g>
+  <path d="M80 116 C86 130 104 150 104 164 C104 176 92 181 80 181
+           C68 181 56 176 56 164 C56 150 74 130 80 116 Z" fill="url(#soma)"/>
+  <circle cx="80" cy="160" r="8" fill="#FFFFFF" fill-opacity="0.28"/>
+
+  <!-- ===== RIGHT LEG = DORSAL-HORN PROJECTION NEURON ===== -->
+  <!-- dendritic tuft receiving the nociceptor -->
+  <g stroke="#14344F" stroke-linecap="round" fill="none">
+    <path d="M254 92 C254 82 254 74 255 66" stroke-width="7"/>
+    <path d="M254 92 C248 84 244 76 242 66" stroke-width="4.5"/>
+    <path d="M255 92 C261 84 266 76 270 68" stroke-width="4.5"/>
+    <path d="M242 66 C238 62 236 60 232 60" stroke-width="2"/>
+    <path d="M270 68 C274 64 278 62 282 62" stroke-width="2"/>
+  </g>
+  <g fill="#14344F">
+    <circle cx="238" cy="80" r="2"/><circle cx="272" cy="80" r="2"/>
+    <circle cx="249" cy="72" r="2"/><circle cx="262" cy="74" r="2"/>
+  </g>
+  <!-- thick dendrite = the leg -->
+  <path d="M248 90 C246 150 243 220 240 282 L270 282 C267 220 263 150 261 90 Z" fill="#14344F"/>
+  <g fill="#14344F">
+    <circle cx="242" cy="140" r="2.2"/><circle cx="264" cy="170" r="2.2"/>
+    <circle cx="240" cy="210" r="2.2"/><circle cx="268" cy="240" r="2.2"/>
+  </g>
+  <!-- pain signal travelling down the dendrite, dying out at the soma -->
+  <line x1="254" y1="70" x2="255" y2="290" stroke="#FF5A6A" stroke-width="5" stroke-linecap="round"
+        stroke-dasharray="16 400" stroke-dashoffset="16">
+    <animate attributeName="stroke-dashoffset" values="16;-215" dur="1.6s" begin="0.8s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="1;1;0" keyTimes="0;0.55;1" dur="1.6s" begin="0.8s" repeatCount="indefinite"/>
+  </line>
+  <!-- soma -->
+  <path d="M255 280 C272 280 280 292 279 304 C278 318 268 326 255 326
+           C241 326 232 317 232 303 C232 290 240 280 255 280 Z" fill="url(#soma)"/>
+  <circle cx="257" cy="302" r="7" fill="#FFFFFF" fill-opacity="0.28"/>
+  <!-- ascending output axon (silenced) -->
+  <path d="M262 324 C266 332 272 338 282 342" stroke="#14344F" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M262 324 C266 332 272 338 282 342" stroke="#8FA3B3" stroke-width="2" stroke-dasharray="2 5" fill="none"/>
+
+  <!-- inhibitory axosomatic boutons from the descending axon -->
+  <g stroke="#14344F" stroke-width="3.5" stroke-linecap="round" fill="none">
+    <path d="M214 290 C218 290 222 290 226 290"/>
+    <path d="M214 290 C216 296 218 300 222 304"/>
+    <path d="M214 290 C216 302 220 310 226 316"/>
+  </g>
+  <g fill="#F2A541">
+    <circle cx="228" cy="290" r="6"/>
+    <circle cx="226" cy="305" r="6">
+      <animate attributeName="r" values="6;8.5;6" dur="1.6s" begin="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="229" cy="318" r="6"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="165" y="410" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="30" font-weight="300" letter-spacing="10" fill="#14344F">ACUÑA<tspan font-weight="700"> LAB</tspan></text>
+</svg>
