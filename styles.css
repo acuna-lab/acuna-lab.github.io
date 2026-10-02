@@ -473,6 +473,43 @@ footer .content-wrapper {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+/* Logos inside hero */
+.logos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 0.75rem 1.25rem;
+    height: 60px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.logo-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.logo-card img {
+    max-height: 40px;
+    max-width: 140px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .header-content {
