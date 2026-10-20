@@ -54,7 +54,7 @@
         "bio": "Bachelor in Biology at the University of Tübingen, Germany. Master in Neuroscience at the GTC International Max-Planck Research School in Tübingen, Germany",
         "specializations": ["Patch-Clamp Electrophysiology", "Brain Histology and IHC", "Passionate Vibecoder"],
         "hobbies": ["Wildlife Photography", "Bikepacking"],
-        "fun_fact": <a href="url">https://saschasteiner.org</a>
+        "fun_fact": "<a href=\"https://saschasteiner.org\" target=\"_blank\">saschasteiner.org</a>"
       }
     ]
   },
