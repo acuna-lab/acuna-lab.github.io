@@ -51,9 +51,9 @@
         "project": "Brain to Body",
         "email": "sascha.steiner[at]unibe[dot]ch",
         "photo": "images/members/sascha.jpg",
-        "bio": "Short bio here — background, where he studied, what brought him to the lab.",
+        "bio": "Bachelor in Biology at the University of Tübingen, Germany. Master in Neuroscience at the GTC International Max-Planck Research School in Tübingen, Germany",
         "specializations": ["Technique 1", "Technique 2", "Technique 3"],
-        "hobbies": ["Hobby 1", "Hobby 2"],
+        "hobbies": ["Wildlife Photography", "Bikepacking"],
         "fun_fact": "Something cool or unexpected."
       }
     ]
