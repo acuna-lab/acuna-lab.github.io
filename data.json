@@ -28,10 +28,10 @@
       "role": "Lab Head",
       "email": "mario[dot]acuna[at]unibe[dot]ch",
       "photo": "images/mario.jpg",
-      "bio": "Short bio here — background, where he studied, what brought him to pain research.",
-      "specializations": ["Technique 1", "Technique 2", "Technique 3"],
-      "hobbies": ["Hobby 1", "Hobby 2"],
-      "fun_fact": "Something cool or unexpected."
+      "bio": "Master's degree from the University of Chile, Chile. PhD in Neuroscience at the University of Zurich, Switzerland (ZNZ Center for Neuroscience), where I studied how modulating GABAergic and glycinergic neurotransmission in the spinal cord relieves pain in mouse pain models, using electrophysiology and animal behavior. I then moved to the University of Bern, continuing my research on pain modulation and expanding my focus to how chronic pain reshapes the activity of neuronal ensembles in the anterior cingulate cortex.",
+      "specializations": ["Electrophysiology", "Pain Behavior", "Two-Photon Microscopy (Head-Fixed Mice)", "Miniscope Recordings (Freely-Moving Mice)", "Computational Analysis"],
+      "hobbies": ["Mountain Biking", "Music", "Bouldering"],
+      "fun_fact": "I wish I could keep playing drums in a death metal band!"
     },
     "phd_students": [
       {
