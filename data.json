@@ -1,6 +1,6 @@
 {
   "header": {
-    "name": "Acuña Lab",
+    "name": "Acuña Team",
     "tagline": "To reveal how the body heals the brain's pain.",
     "description": "We study the neural mechanisms underlying chronic pain and exercise-induced analgesia, investigating both peripheral and central pathways that modulate pain perception. Our work bridges body and brain using in vivo calcium imaging, electrophysiology, and molecular profiling.<br><br>We are part of the <a href='https://physiologie.unibe.ch/research/research_groups/neuronal_plasticity/index_eng.html' target='_blank'>Nevian Lab</a> at the Institute of Physiology, University of Bern."
   },
@@ -35,7 +35,7 @@
     "lab_head": {
       "name": "Mario A. Acuña, PhD",
       "flag": "🇨🇱",
-      "role": "Lab Head",
+      "role": "Team Leader",
       "email": "mario[dot]acuna[at]unibe[dot]ch",
       "photo": "images/mario.jpg",
       "bio": "Master's degree from the University of Chile, Chile. PhD in Neuroscience at the University of Zurich, Switzerland (ZNZ Center for Neuroscience), where I studied how modulating GABAergic and glycinergic neurotransmission in the spinal cord relieves pain in mouse pain models, using electrophysiology and animal behavior. I then moved to the University of Bern, continuing my research on pain modulation and expanding my focus to how chronic pain reshapes the activity of neuronal ensembles in the anterior cingulate cortex.",
@@ -198,10 +198,10 @@
   },
   "join": {
     "title": "Join Us",
-    "content": "We are looking for motivated Master students to join our lab. If you are curious about the neuroscience of pain and exercise, this is the place for you.<br><br><strong>What you will learn:</strong><br>• Molecular biology (qPCR, immunohistochemistry)<br>• Ex vivo electrophysiology<br>• Data analysis<br>• Calcium imaging<br><br><strong>How to apply:</strong><br>Send an email to <span class='contact-obfuscated'>mario[dot]acuna[at]unibe[dot]ch</span> with your CV and two sentences on why pain and exercise interest you. No cover letter needed — just curiosity and motivation."
+    "content": "We are looking for motivated Master students to join our team. If you are curious about the neuroscience of pain and exercise, this is the place for you.<br><br><strong>What you will learn:</strong><br>• Molecular biology (qPCR, immunohistochemistry)<br>• Ex vivo electrophysiology<br>• Data analysis<br>• Calcium imaging<br><br><strong>How to apply:</strong><br>Send an email to <span class='contact-obfuscated'>mario[dot]acuna[at]unibe[dot]ch</span> with your CV and two sentences on why pain and exercise interest you. No cover letter needed — just curiosity and motivation."
   },
   "footer": {
-    "address": "Acuña Lab\nInstitute of Physiology\nFaculty of Medicine\nUniversity of Bern\nBern, Switzerland",
+    "address": "Acuña Team\nInstitute of Physiology\nFaculty of Medicine\nUniversity of Bern\nBern, Switzerland",
     "email": "mario[dot]acuna[at]unibe[dot]ch",
     "links": [
       { "name": "Institute of Physiology", "url": "https://physiologie.unibe.ch/index_eng.html" },
