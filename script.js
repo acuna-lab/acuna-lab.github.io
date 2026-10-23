@@ -1,3 +1,5 @@
+const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
 // Hamburger menu toggle
 (function() {
     const toggle = document.querySelector('.nav-toggle');
@@ -38,7 +40,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (project.tools && project.tools.length) {
                     toolsHtml = `<div class="project-tools">${project.tools.map(t => `<span class="tag">${t}</span>`).join('')}</div>`;
                 }
-                div.innerHTML = `<h3>${project.title}</h3><p>${project.description}</p>${toolsHtml}`;
+                let figuresHtml = '';
+                if (project.images && project.images.length) {
+                    figuresHtml = `<div class="project-figures">${project.images.map(img => `<figure><img src="${img.src}" alt="${img.caption}" loading="lazy" data-zoom><figcaption>${img.caption}</figcaption></figure>`).join('')}</div>`;
+                }
+                div.innerHTML = `<h3>${project.title}</h3><p>${project.description}</p>${toolsHtml}${figuresHtml}`;
                 researchList.appendChild(div);
             });
 
@@ -97,6 +103,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 peopleList.appendChild(studentDiv);
             });
 
+            // Gallery
+            document.getElementById('gallery-title').textContent = data.gallery.title;
+            const galleryGrid = document.getElementById('gallery-grid');
+            data.gallery.items.forEach(item => {
+                const card = document.createElement('figure');
+                card.classList.add('gallery-card');
+                let media = '';
+                if (item.type === 'video') {
+                    media = `<video src="${item.src}" poster="${item.poster || ''}" ${reduceMotion ? '' : 'autoplay'} muted loop playsinline preload="metadata"></video>`;
+                } else if (item.type === 'image') {
+                    media = `<img src="${item.src}" alt="${item.title}" loading="lazy" data-zoom>`;
+                }
+                card.innerHTML = `${media}<figcaption><strong>${item.title}</strong>${item.description}${item.credit ? `<span class="media-credit">${item.credit}</span>` : ''}</figcaption>`;
+                galleryGrid.appendChild(card);
+            });
+
             // Publications (sorted newest first, grouped by year)
             document.getElementById('publications-title').textContent = data.publications.title;
             const pubList = document.getElementById('publications-list');
@@ -153,3 +175,22 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error fetching data:', error));
 });
+
+// Lightbox for images marked with data-zoom
+(function() {
+    const box = document.getElementById('lightbox');
+    if (!box) return;
+    document.addEventListener('click', e => {
+        const img = e.target.closest('img[data-zoom]');
+        if (!img) return;
+        box.querySelector('img').src = img.src;
+        box.querySelector('img').alt = img.alt;
+        box.querySelector('p').textContent = img.alt;
+        box.showModal();
+    });
+    box.addEventListener('click', () => box.close());
+})();
+
+if (reduceMotion) {
+    document.querySelectorAll('video[autoplay]').forEach(v => { v.removeAttribute('autoplay'); v.pause(); });
+}

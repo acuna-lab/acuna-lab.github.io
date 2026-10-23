@@ -8,7 +8,7 @@
     <meta property="og:title" content="Acuña Lab — Pain Neuroscience, University of Bern">
     <meta property="og:description" content="Uncovering how the body heals the brain's pain. Research on exercise-induced analgesia, myokines, and central pain circuits.">
     <meta property="og:type" content="website">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=7">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -33,6 +33,7 @@
 </head>
 <body>
     <nav>
+        <a href="#home" class="nav-brand"><img src="images/logo_nav.jpg" alt="">Acuña Lab</a>
         <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
             <span></span>
             <span></span>
@@ -42,6 +43,7 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#research">Research</a></li>
             <li><a href="#people">People</a></li>
+            <li><a href="#gallery">Gallery</a></li>
             <li><a href="#publications">Publications</a></li>
             <li><a href="#join">Join Us</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -50,19 +52,23 @@
 
     <!-- Hero -->
     <section id="home" class="section hero">
-        <div class="content-wrapper">
-            <div class="header-content">
-                <div class="header-text">
+        <div class="hero-inner">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <p class="eyebrow">Institute of Physiology · University of Bern</p>
                     <h1 id="header-name"></h1>
                     <p id="header-tagline" class="hero-vision"></p>
+                    <div id="overview-content" class="hero-description"></div>
+                    <div class="hero-actions">
+                        <a href="#research" class="btn btn-primary">Our research</a>
+                        <a href="#join" class="btn btn-ghost">Join us</a>
+                    </div>
                     <a id="recruiting-pill" href="#join" class="recruiting-pill" style="display:none;">🎓 We're recruiting Master students → Learn more</a>
                 </div>
-                <div class="header-image">
-                    <img src="images/acuna-lab-monogram-v6.svg" alt="Acuña Lab — neuroscience research on pain and exercise" class="welcome-image">
-                </div>
-            </div>
-            <div id="overview-content" class="hero-description">
-                <!-- Short overview loaded here -->
+                <figure class="hero-media">
+                    <video class="hero-video" src="images/brain2body/axon-soma-hero.mp4" poster="images/brain2body/axon-soma-hero.jpg" autoplay muted loop playsinline preload="auto" aria-label="Rotating 3D scan of axons around a neuron"></video>
+                    <figcaption><span class="dot dot-axon"></span>axons <span class="dot dot-soma"></span>neuron soma<span class="media-credit">Video: Alex Bokhobza, Institute of Physiology, University of Bern</span></figcaption>
+                </figure>
             </div>
             <div class="logos-container">
                 <a href="https://www.unibe.ch" target="_blank" class="logo-card" title="University of Bern">
@@ -93,6 +99,16 @@
         <div class="content-wrapper">
             <h2 id="people-title"></h2>
             <div id="people-list"></div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section">
+        <div class="content-wrapper">
+            <h2 id="gallery-title"></h2>
+            <div id="gallery-grid" class="gallery-grid">
+                <!-- Gallery items loaded here -->
+            </div>
         </div>
     </section>
 
@@ -138,6 +154,11 @@
         </div>
     </footer>
 
+    <dialog id="lightbox" aria-label="Image viewer">
+        <img alt="">
+        <p></p>
+    </dialog>
+
     <noscript>
         <div style="max-width:800px;margin:4rem auto;padding:2rem;font-family:sans-serif;">
             <h1>Acuña Lab</h1>
@@ -147,6 +168,6 @@
         </div>
     </noscript>
 
-    <script src="script.js?v=3"></script>
+    <script src="script.js?v=5"></script>
 </body>
 </html>

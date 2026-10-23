@@ -16,7 +16,17 @@
       {
         "title": "Brain to Body — Unraveling the Neuronal Mechanisms Implicated in Exercise-Mediated Analgesia",
         "description": "This project focuses on the central neural circuits involved in exercise-induced pain relief, particularly the ventral hippocampus-medial prefrontal cortex-periaqueductal gray (vHC-mPFC-PAG) axis. Through comprehensive circuit mapping and selective manipulation of neuronal populations, we investigate how this pathway contributes to pain modulation during exercise. By combining circuit-specific interventions with targeted myokine overexpression, we seek to understand and potentially enhance the pain-relieving effects of exercise, developing novel approaches for those unable to engage in regular physical activity.<br><em>Carried out by Sascha Steiner</em>",
-        "tools": ["Animal Behavior", "Ex vivo Electrophysiology", "Viral Vector Delivery", "Data Analysis"]
+        "tools": ["Animal Behavior", "Ex vivo Electrophysiology", "Viral Vector Delivery", "Data Analysis"],
+        "images": [
+          {
+            "src": "images/brain2body/01_mPFC_web.jpg",
+            "caption": "Medial prefrontal cortex: labeled neurons (red) and fibres (green)"
+          },
+          {
+            "src": "images/brain2body/03_patched_web.jpg",
+            "caption": "Patched and filled mPFC neurons (green) among labeled cells (magenta)"
+          }
+        ]
       }
     ]
   },
@@ -55,6 +65,31 @@
         "specializations": ["Patch-Clamp Electrophysiology", "Brain Histology and IHC", "Passionate Vibecoder"],
         "hobbies": ["Wildlife Photography", "Bikepacking"],
         "fun_fact": "<a href=\"https://saschasteiner.org\" target=\"_blank\">saschasteiner.org</a>"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Gallery",
+    "items": [
+      {
+        "type": "video",
+        "src": "images/brain2body/axon-soma-hero.mp4",
+        "poster": "images/brain2body/axon-soma-hero.jpg",
+        "title": "Axons meet a neuron",
+        "description": "3D scan of axons (gold) around a neuron soma (magenta).",
+        "credit": "Video: Alex Bokhobza, Institute of Physiology, University of Bern"
+      },
+      {
+        "type": "image",
+        "src": "images/brain2body/01_mPFC_web.jpg",
+        "title": "Medial prefrontal cortex",
+        "description": "Labeled neurons (red) and fibres (green)."
+      },
+      {
+        "type": "image",
+        "src": "images/brain2body/03_patched_web.jpg",
+        "title": "Patched neurons",
+        "description": "Filled mPFC neurons (green) among labeled cells (magenta)."
       }
     ]
   },
