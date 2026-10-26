@@ -37,7 +37,7 @@
       "flag": "🇨🇱",
       "role": "Team Leader",
       "email": "mario[dot]acuna[at]unibe[dot]ch",
-      "photo": "images/mario.jpg",
+      "photo": "images/mario.jpeg",
       "bio": "Master's degree from the University of Chile, Chile. PhD in Neuroscience at the University of Zurich, Switzerland (ZNZ Center for Neuroscience), where I studied how modulating GABAergic and glycinergic neurotransmission in the spinal cord relieves pain in mouse pain models, using electrophysiology and animal behavior. I then moved to the University of Bern, continuing my research on pain modulation and expanding my focus to how chronic pain reshapes the activity of neuronal ensembles in the anterior cingulate cortex.",
       "specializations": ["Electrophysiology", "Pain Behavior", "Two-Photon Microscopy (Head-Fixed Mice)", "Miniscope Recordings (Freely-Moving Mice)", "Computational Analysis"],
       "hobbies": ["Mountain Biking", "Music", "Bouldering"],
@@ -97,6 +97,11 @@
     "title": "Publications",
     "items": [
       {
+        "title": "Zhai Y, Acuña MA, Krzyszkowski A, Al-Haj S, Nevian NE, Finn DP, Nevian T, Kwakowsky A. Caffeine attenuates Aβ-induced hippocampal dysfunction alongside changes in adenosine receptor-linked GABA handling and neuronal excitability. Pharmacological Research (2026).",
+        "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/42906650/",
+        "doi_link": "https://doi.org/10.1016/j.phrs.2026.109697"
+      },
+      {
         "title": "Acuña MA, Kasanetz F, De Luna P, Falkowska M, Nevian T. Principles of nociceptive coding in the anterior cingulate cortex. Proceedings of the National Academy of Sciences, 120(23), e2212394120 (2023).",
         "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/37252991/",
         "doi_link": "https://doi.org/10.1073/pnas.2212394120"
@@ -155,9 +160,6 @@
         "title": "Acuña MA, Valentinova K, Darbon P. Editorial: Molecular neurobiology of chronic pain: pharmacological and non-pharmacological approaches in animal models. Frontiers in Molecular Neuroscience, 17, 1487141 (2024).",
         "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/39350931/",
         "doi_link": "https://doi.org/10.3389/fnmol.2024.1487141"
-      },
-      {
-        "title": "Acuña MA, Kaufmann A, Nevian NE, Nevian T. Neuronal circuit mechanisms of pain-anxiety comorbidity in the mouse anterior cingulate cortex. European Journal of Pain, 29 (2025)."
       },
       {
         "title": "Ralvenius WT, Acuña MA, Benke D, Matthey A, Daali Y, Rudolph U, Zeilhofer HU. The clobazam metabolite N-desmethyl clobazam is an α2 preferring benzodiazepine with an improved therapeutic window for antihyperalgesia. Neuropharmacology, 109, 366-375 (2016).",
